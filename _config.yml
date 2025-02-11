@@ -1,4 +1,57 @@
-theme: minima
-title: Romain Büchi
-author: RB
-description: Personal Website and Repository
+title: "Romain Büchi"
+description: "Interested in the Philosophy of X, for any X worthwhile"
+baseurl: ""
+url: "https://rombue.github.io"
+theme: "minimal-mistakes-jekyll"
+
+# Navigation
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Papers"
+    url: "/papers/"
+  - title: "Talks"
+    url: "/talks/"
+  - title: "About"
+    url: "/about/"
+
+# Plugins
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Publications
+collections:
+  papers:
+    output: true
+    permalink: /papers/:path/
+
+# Talks with timeline
+collections:
+  talks:
+    output: true
+    permalink: /talks/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "papers"
+    values:
+      layout: "paper"
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
+
+# Sidebar settings
+sidebar:
+  enabled: true
+  nav: "nav"
+
+# Social media
+#social:
+ # twitter: yourhandle
+ # github: yourgithubusername
