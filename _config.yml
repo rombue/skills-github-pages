@@ -16,7 +16,8 @@ nav:
     url: "/about/"
 
 # Plugins
-gems:
+plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
