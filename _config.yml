@@ -2,7 +2,7 @@ title: "Romain Büchi"
 description: "Interested in the Philosophy of X, for any X worthwhile"
 baseurl: ""
 url: "https://rombue.github.io"
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Navigation
 nav:
